@@ -13,4 +13,10 @@ Sample of business logic implementation.
    <li>The better implementation of Transaction Script, as the input of methods is well-defined.</li>
       <li> This anti-pattern is so horrifying because it goes against the core principle of object-oriented design, which is to unite data and process in one entity. </li>
    </ul>
-4. 
+3. Domain Model
+   <ul>
+   <li>https://martinfowler.com/eaaCatalog/domainModel.html</li>
+   <li>Incorporation of both behavior and data</li>
+      <li>This model makes transaction management more difficult by creating a big graph of complicated objects.</li>
+   </ul>
+5.  
