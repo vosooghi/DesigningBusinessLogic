@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using TransactionScript.Domain;
 using TransactionScript.Endpoint.MVC.Models;
 
 namespace TransactionScript.Endpoint.MVC.Controllers
@@ -27,6 +28,12 @@ namespace TransactionScript.Endpoint.MVC.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult RegisterPerson(string firstName, string lastName)
+        {
+            new PersonManager().RegisterPerson(firstName, lastName);
+            return Ok();
         }
     }
 }
