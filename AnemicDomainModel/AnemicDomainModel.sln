@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnemicDomainModel.Domain", "AnemicDomainModel.Domain\AnemicDomainModel.Domain.csproj", "{E64D60B5-B386-4166-99DC-BC308C69B593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnemicDomainModel.ConsoleApp", "AnemicDomainModel.ConsoleApp\AnemicDomainModel.ConsoleApp.csproj", "{AD002806-B1E5-4B42-98E2-7B3773E4E530}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E64D60B5-B386-4166-99DC-BC308C69B593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64D60B5-B386-4166-99DC-BC308C69B593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64D60B5-B386-4166-99DC-BC308C69B593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64D60B5-B386-4166-99DC-BC308C69B593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD002806-B1E5-4B42-98E2-7B3773E4E530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD002806-B1E5-4B42-98E2-7B3773E4E530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD002806-B1E5-4B42-98E2-7B3773E4E530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD002806-B1E5-4B42-98E2-7B3773E4E530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70A0AE88-D9EB-4708-9DB5-386CEF8B0BE9}
+	EndGlobalSection
+EndGlobal
